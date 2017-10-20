@@ -1,0 +1,22 @@
+{
+  "name": "brief",
+  "version": "1.0.0",
+  "description": "简书登录注册",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karryGit/brief.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karryGit/brief/issues"
+  },
+  "homepage": "https://github.com/karryGit/brief#readme",
+  "dependencies": {
+    "vue": "^2.5.2"
+  }
+}
