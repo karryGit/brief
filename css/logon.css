@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(241,241,241) ;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    position: absolute;
+    top: 56px;
+    margin-left: 50px;
+}
+#logo img{
+    width: 100px;
+}
+.all a{
+    padding: 10px;
+    color: #969696;
+    font-size: 20px;
+}
+.all b{
+    color: #969696;
+}
+#app{
+    position: relative;
+    width: 400px;
+    height: 520px;
+    margin: 60px auto 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    vertical-align: middle;
+}
+.all .active{
+    border-bottom: 2px solid #ea6f5a;
+    color: rgb(235,110,93);
+}
+
+.all{
+    position: absolute;
+    left: 36%;
+    top: 10%;
+}
+#box{
+    width: 74%;
+    position: relative;
+    left: 14%;
+    top: 22%;
+    border-radius: 4px;
+    border: 1px solid rgb(160,160,160);
+}
+#box input{
+    background-color: rgb(248,248,248);
+    font-size: 12px;
+    text-align: left;
+    outline: none;
+    width:100%;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    height: 46px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    vertical-align: middle;
+}
+#Nickname{
+    background: url("../img/user.png")no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+#phone{
+    background: url("../img/手机.png")no-repeat;
+    background-size: 20px 20px;
+    background-position: 8px;
+}
+#setPass{
+    background: url("../img/password_icon.png")no-repeat;
+    background-size: 20px 20px;
+    background-position: 8px;
+}
+
+#submit{
+    width: 75%;
+    padding: 8px 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background: #42c02e;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    left: 14%;
+    top: 52%;
+}
+#app_img{
+    left: 31%;
+    position: absolute;
+    top: 80%;
+}
+#agree{
+    position: absolute;
+    left: 24%;
+    top:62%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #969696;
+}
+#agree a{
+    color: #3194d0;
+}
+.social{
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+.hengxian{
+    position: absolute;
+    left: 24%;
+    top: 76%;
+    width: 50px;
+    height: 1px;
+    background-color: #b5b5b5;;
+}
+.hengxian1{
+    position: absolute;
+    left: 66%;
+    top: 76%;
+    width: 50px;
+    height: 1px;
+    background-color: #b5b5b5;;
+}
